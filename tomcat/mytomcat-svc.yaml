@@ -6,6 +6,6 @@ spec:
   type: NodePort
   ports:
     - port: 8080
-      nodePort: 30001
+      nodePort: 30031
   selector:
     app: mytomcat
